@@ -18,6 +18,7 @@
 (el-get-bundle helm)
 (el-get-bundle undo-tree)
 (el-get-bundle auto-complete)
+(el-get-bundle yaml-mode)
 (el-get-bundle lua-mode)
 (el-get-bundle web-mode)
 (el-get-bundle linum-relative)
