@@ -36,3 +36,4 @@
 (custom-set-variables
  '(setq-default init-loader-byte-compile t))
 (init-loader-load)
+(put 'narrow-to-region 'disabled nil)
