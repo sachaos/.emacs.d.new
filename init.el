@@ -13,7 +13,10 @@
     (goto-char (point-max))
     (eval-print-last-sexp)))
 
-;; get packages
+;;;;;;;;;;;;;;;;;;
+;; get packages ;;
+;;;;;;;;;;;;;;;;;;
+
 (el-get-bundle init-loader)
 (el-get-bundle helm)
 (el-get-bundle undo-tree)
@@ -31,6 +34,13 @@
 (el-get-bundle emmet-mode)
 (el-get-bundle helm-ls-git)
 (el-get-bundle git-gutter+)
+
+;; ruby
+
+(el-get-bundle enh-ruby-mode)
+(el-get-bundle ruby-end)
+(el-get-bundle ruby-block)
+(el-get-bundle robe)
 
 ;; init-loader
 (custom-set-variables
