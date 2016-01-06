@@ -49,7 +49,7 @@
       ;; Escape some characters
       (setq pattern (replace-regexp-in-string "\\." "\\\\." pattern))
       (setq pattern (replace-regexp-in-string "\\*" "\\\\*" pattern))
-      patterne)))
+      pattern)))
 
 
 (unless helm-source-buffers-list
