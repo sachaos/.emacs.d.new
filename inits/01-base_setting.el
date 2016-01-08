@@ -20,7 +20,7 @@
 (setq ac-use-fuzzy t)
 (global-auto-complete-mode t)
 
-;; linum-relative
+;; linum
 (global-linum-mode)
 
 ;; anzu

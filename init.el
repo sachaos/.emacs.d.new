@@ -24,7 +24,6 @@
 (el-get-bundle yaml-mode)
 (el-get-bundle lua-mode)
 (el-get-bundle web-mode)
-(el-get-bundle linum-relative)
 (el-get-bundle anzu)
 (el-get-bundle mwim)
 (el-get-bundle material-theme)
