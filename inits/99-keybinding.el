@@ -14,8 +14,8 @@
 (define-key helm-read-file-map (kbd "TAB") 'helm-execute-persistent-action)
 
 ;; helm-ls-git
-(define-key global-map (kbd "C-c C-f") 'helm-ls-git-ls)
-(define-key global-map (kbd "C-c C-g") 'helm-grep-do-git-grep)
+(define-key global-map (kbd "C-x C-g C-f") 'helm-ls-git-ls)
+(define-key global-map (kbd "C-x C-g C-g") 'helm-grep-do-git-grep)
 
 ;; mwim
 (define-key global-map (kbd "C-a") 'mwim-beginning-of-code-or-line)
