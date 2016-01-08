@@ -34,6 +34,7 @@
 (el-get-bundle emmet-mode)
 (el-get-bundle helm-ls-git)
 (el-get-bundle git-gutter+)
+(el-get-bundle flycheck)
 
 ;; ruby
 

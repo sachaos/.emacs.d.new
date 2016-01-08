@@ -16,6 +16,13 @@
 (add-hook 'robe-mode-hook 'ac-robe-setup)
 (add-hook 'robe-mode-hook 'auto-complete-mode)
 
+;; flycheck hook
+;; enable auto checker of rubocop and ruby-lint
+(add-hook 'enh-ruby-mode-hook
+          '(lambda ()
+             (setq flycheck-checker 'ruby-rubocop)
+             (flycheck-mode 1)))
+
 ;; not insert magic comment
 (defadvice enh-ruby-mode-set-encoding (around stop-enh-ruby-mode-set-encoding)
   "If enh-ruby-not-insert-magic-comment is true, stops enh-ruby-mode-set-encoding."
