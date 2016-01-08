@@ -21,6 +21,7 @@
 (global-auto-complete-mode t)
 
 ;; linum
+(setq linum-format "%4d ")
 (global-linum-mode)
 
 ;; anzu
