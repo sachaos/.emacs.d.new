@@ -34,9 +34,9 @@
 (el-get-bundle helm-ls-git)
 (el-get-bundle git-gutter+)
 (el-get-bundle flycheck)
+(el-get-bundle redspace)
 
 ;; ruby
-
 (el-get-bundle enh-ruby-mode)
 (el-get-bundle ruby-end)
 (el-get-bundle ruby-block)

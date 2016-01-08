@@ -30,6 +30,9 @@
 ;; undo-tree
 (global-undo-tree-mode)
 
+;; redspace
+(redspace-mode t)
+
 ;; others
 (put 'upcase-region 'disabled nil)
 (setq vc-follow-symlinks t)
