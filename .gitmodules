@@ -2,5 +2,5 @@
 	path = yasnippet/ruby-mode
 	url = git@github.com:bmaland/yasnippet-ruby-mode.git
 [submodule "enh-ruby-mode"]
-	path = enh-ruby-mode
+	path = yasnippet/enh-ruby-mode
 	url = git@github.com:bmaland/yasnippet-ruby-mode.git
