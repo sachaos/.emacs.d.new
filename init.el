@@ -19,6 +19,7 @@
 
 (el-get-bundle init-loader)
 (el-get-bundle helm)
+(el-get-bundle yasnippet)
 (el-get-bundle undo-tree)
 (el-get-bundle auto-complete)
 (el-get-bundle yaml-mode)
