@@ -36,6 +36,7 @@
 (el-get-bundle git-gutter+)
 (el-get-bundle flycheck)
 (el-get-bundle redspace)
+(el-get-bundle scss-mode)
 
 ;; ruby
 (el-get-bundle enh-ruby-mode)
