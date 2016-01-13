@@ -23,11 +23,6 @@
              (setq flycheck-checker 'ruby-rubocop)
              (flycheck-mode 1)))
 
-;; not insert magic comment
-(defadvice enh-ruby-mode-set-encoding (around stop-enh-ruby-mode-set-encoding)
-  "If enh-ruby-not-insert-magic-comment is true, stops enh-ruby-mode-set-encoding."
-  (if (and (boundp 'enh-ruby-not-insert-magic-comment)
-           (not enh-ruby-not-insert-magic-comment))
-      ad-do-it))
-(ad-activate 'enh-ruby-mode-set-encoding)
-(setq-default enh-ruby-not-insert-magic-comment t)
+
+(setq enh-ruby-add-encoding-comment-on-save nil)
+(setq enh-ruby-deep-indent-paren nil)
