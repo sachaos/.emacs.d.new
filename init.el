@@ -37,6 +37,7 @@
 (el-get-bundle flycheck)
 (el-get-bundle redspace)
 (el-get-bundle scss-mode)
+(el-get-bundle coffee-mode)
 
 ;; ruby
 (el-get-bundle enh-ruby-mode)
