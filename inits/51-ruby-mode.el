@@ -4,7 +4,6 @@
 
 ;; ruby-block
 (require 'ruby-block)
-(ruby-block-mode t)
 
 ;; robe
 (add-hook 'enh-ruby-mode-hook 'robe-mode)

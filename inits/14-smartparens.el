@@ -4,4 +4,4 @@
 
 (require 'smartparens-config)
 
-(smartparens-global-strict-mode)
+(smartparens-global-mode)
