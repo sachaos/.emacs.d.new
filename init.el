@@ -18,6 +18,7 @@
 ;;;;;;;;;;;;;;;;;;
 
 (el-get-bundle init-loader)
+(el-get-bundle smartparens)
 (el-get-bundle helm)
 (el-get-bundle yasnippet)
 (el-get-bundle undo-tree)
