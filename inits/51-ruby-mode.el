@@ -6,9 +6,6 @@
 (require 'ruby-block)
 (ruby-block-mode t)
 
-;; ruby-end
-(custom-set-variables '(ruby-end-insert-newline nil))
-
 ;; robe
 (add-hook 'enh-ruby-mode-hook 'robe-mode)
 (autoload 'robe-mode "robe" "Code navigation, documentation lookup and completion for Ruby" t nil)
