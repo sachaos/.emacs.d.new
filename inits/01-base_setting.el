@@ -33,6 +33,9 @@
 ;; redspace
 (redspace-mode t)
 
+;; enable delete region
+(delete-selection-mode t)
+
 ;; others
 (put 'upcase-region 'disabled nil)
 (setq vc-follow-symlinks t)
