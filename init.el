@@ -44,6 +44,9 @@
 (el-get-bundle enh-ruby-mode)
 (el-get-bundle robe)
 
+;; elixir
+(el-get-bundle elixir-mode)
+
 ;; init-loader
 (custom-set-variables
  '(setq-default init-loader-byte-compile t))
