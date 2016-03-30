@@ -46,6 +46,7 @@
 
 ;; elixir
 (el-get-bundle elixir-mode)
+(el-get-bundle alchemist)
 
 ;; init-loader
 (custom-set-variables
