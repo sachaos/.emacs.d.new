@@ -49,6 +49,9 @@
 (el-get-bundle elixir-mode)
 (el-get-bundle alchemist)
 
+;; jsx
+(el-get-bundle js2-mode)
+
 ;; init-loader
 (custom-set-variables
  '(setq-default init-loader-byte-compile t))
