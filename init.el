@@ -32,6 +32,7 @@
 (el-get-bundle expand-region)
 (el-get-bundle magit)
 (el-get-bundle markdown-mode)
+(el-get-bundle mmm-mode)
 (el-get-bundle emmet-mode)
 (el-get-bundle helm-ls-git)
 (el-get-bundle git-gutter+)
