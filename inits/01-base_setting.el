@@ -7,6 +7,7 @@
 
 ;; indent
 (setq-default indent-tabs-mode nil)
+(setq css-indent-offset 2) ;; CSS
 
 ;; show-parent-mode
 (show-paren-mode 1)
