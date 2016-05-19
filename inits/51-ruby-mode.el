@@ -19,6 +19,5 @@
              (setq flycheck-checker 'ruby-rubocop)
              (flycheck-mode 1)))
 
-
-(setq enh-ruby-add-encoding-comment-on-save nil)
-(setq enh-ruby-deep-indent-paren nil)
+(custom-set-variables '(enh-ruby-add-encoding-comment-on-save nil))
+(custom-set-variables '(enh-ruby-deep-indent-paren nil))

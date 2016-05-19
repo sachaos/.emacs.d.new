@@ -42,6 +42,7 @@
 (el-get-bundle coffee-mode)
 
 ;; ruby
+(el-get-bundle ruby-block)
 (el-get-bundle enh-ruby-mode)
 (el-get-bundle robe)
 
