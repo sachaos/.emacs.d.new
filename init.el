@@ -53,6 +53,9 @@
 ;; jsx
 (el-get-bundle js2-mode)
 
+;; haskell
+(el-get-bundle haskell-mode)
+
 ;; init-loader
 (custom-set-variables
  '(setq-default init-loader-byte-compile t))
