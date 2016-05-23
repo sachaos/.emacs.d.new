@@ -2,6 +2,7 @@
 ;; markdown-mode ;;
 ;;;;;;;;;;;;;;;;;;;
 
+(require 'markdown-mode)
 (require 'mmm-mode)
 (setq mmm-global-mode 'maybe)
 
@@ -22,3 +23,10 @@ If SUBMODE is not provided, use `LANG-mode' by default."
 
 ;; Mode names that differ from the language name
 (my-mmm-markdown-auto-class "shell" 'shell-script-mode)
+
+;; color
+(set-face-foreground 'markdown-header-delimiter-face "color-247")
+(set-face-foreground 'markdown-header-face-1 "brightblue")
+(set-face-foreground 'markdown-header-face-2 "brightcyan")
+(set-face-foreground 'markdown-header-face-3 "brightgreen")
+(set-face-foreground 'markdown-header-face-4 "brightyellow")
