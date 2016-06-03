@@ -37,7 +37,6 @@
 (el-get-bundle helm-ls-git)
 (el-get-bundle git-gutter+)
 (el-get-bundle flycheck)
-(el-get-bundle redspace)
 (el-get-bundle scss-mode)
 (el-get-bundle coffee-mode)
 (el-get-bundle google-translate)
