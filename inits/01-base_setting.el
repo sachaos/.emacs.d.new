@@ -37,6 +37,9 @@
 ;; enable delete region
 (delete-selection-mode t)
 
+;; 
+(setq nobreak-char-display nil)
+
 ;; others
 (put 'upcase-region 'disabled nil)
 (setq vc-follow-symlinks t)
