@@ -1,6 +1,10 @@
 ;; keybindings
 (define-key global-map (kbd "C-h") 'delete-backward-char)
 
+;; timestamp
+(define-key global-map (kbd "C-c C-t C-d") 'insert-current-date)
+(define-key global-map (kbd "C-c C-t C-t") 'insert-current-time)
+
 ;; helm
 (define-key global-map (kbd "M-x")     'helm-M-x)
 (define-key global-map (kbd "C-x C-f") 'helm-find-files)
