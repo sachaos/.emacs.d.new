@@ -27,5 +27,5 @@ Uses `current-date-time-format' for the formatting the date/time."
   (insert "\n")
   )
 
-(global-set-key "\C-c\C-c\C-d" 'insert-current-date-time)
-(global-set-key "\C-c\C-c\C-t" 'insert-current-time)
+(global-set-key "\C-c\C-t\C-d" 'insert-current-date-time)
+(global-set-key "\C-c\C-t\C-t" 'insert-current-time)
