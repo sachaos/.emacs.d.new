@@ -20,7 +20,7 @@ If SUBMODE is not provided, use `LANG-mode' by default."
 
 ;; Mode names that derive directly from the language name
 (mapc 'my-mmm-markdown-auto-class
-      '("yaml" "lua" "elixir" "ruby" "javascript"))
+      '("yaml" "lua" "elixir" "ruby" "javascript" "json"))
 
 ;; Mode names that differ from the language name
 (my-mmm-markdown-auto-class "shell" 'shell-script-mode)

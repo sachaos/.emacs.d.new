@@ -40,6 +40,7 @@
 (el-get-bundle scss-mode)
 (el-get-bundle coffee-mode)
 (el-get-bundle google-translate)
+(el-get-bundle json-mode)
 
 ;; ruby
 (el-get-bundle ruby-block)
