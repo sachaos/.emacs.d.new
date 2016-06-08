@@ -20,7 +20,7 @@ If SUBMODE is not provided, use `LANG-mode' by default."
 
 ;; Mode names that derive directly from the language name
 (mapc 'my-mmm-markdown-auto-class
-      '("yaml" "lua" "elixir" "ruby"))
+      '("yaml" "lua" "elixir" "ruby" "javascript"))
 
 ;; Mode names that differ from the language name
 (my-mmm-markdown-auto-class "shell" 'shell-script-mode)
@@ -32,6 +32,7 @@ If SUBMODE is not provided, use `LANG-mode' by default."
 (set-face-foreground 'markdown-header-face-3 "brightgreen")
 (set-face-foreground 'markdown-header-face-4 "brightyellow")
 
+;; table settings
 (defun cleanup-org-tables ()
   (save-excursion
     (goto-char (point-min))
