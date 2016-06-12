@@ -1,0 +1,13 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: action
+# key: action
+# binding: direct-keybinding
+# --
+export function ${1:actionName}(${2:args}) {
+  return {
+    type: ${3:type},
+    payload: {
+      $0
+    }
+  };
+}
