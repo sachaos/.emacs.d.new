@@ -30,12 +30,9 @@
 (el-get-bundle mwim)
 (el-get-bundle material-theme)
 (el-get-bundle expand-region)
-(el-get-bundle magit)
 (el-get-bundle markdown-mode)
 (el-get-bundle mmm-mode)
 (el-get-bundle emmet-mode)
-(el-get-bundle helm-ls-git)
-(el-get-bundle git-gutter+)
 (el-get-bundle flycheck)
 (el-get-bundle scss-mode)
 (el-get-bundle coffee-mode)
@@ -56,6 +53,12 @@
 
 ;; haskell
 (el-get-bundle haskell-mode)
+
+;; git
+(el-get-bundle git-link)
+(el-get-bundle helm-ls-git)
+(el-get-bundle git-gutter+)
+(el-get-bundle magit)
 
 ;; init-loader
 (custom-set-variables
