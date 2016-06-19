@@ -15,12 +15,6 @@
 ;; disable tool-bar
 (menu-bar-mode -1)
 
-;; auto-complete
-(ac-config-default)
-(setq ac-use-menu-map t)
-(setq ac-use-fuzzy t)
-(global-auto-complete-mode t)
-
 ;; linum
 (setq linum-format "%4d ")
 (global-linum-mode)
