@@ -38,6 +38,7 @@
 (el-get-bundle coffee-mode)
 (el-get-bundle google-translate)
 (el-get-bundle json-mode)
+(el-get-bundle edit-server)
 
 ;; ruby
 (el-get-bundle ruby-block)
