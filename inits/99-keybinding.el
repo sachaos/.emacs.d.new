@@ -34,3 +34,9 @@
 (define-key yas-minor-mode-map (kbd "C-x i i") 'yas-insert-snippet)
 (define-key yas-minor-mode-map (kbd "C-x i n") 'yas-new-snippet)
 (define-key yas-minor-mode-map (kbd "C-x i v") 'yas-visit-snippet-file)
+
+;; translate
+(define-key global-map (kbd "C-c t p p") 'google-translate-at-point)
+(define-key global-map (kbd "C-c t p r") 'google-translate-at-point-reverse)
+(define-key global-map (kbd "C-c t q q") 'google-translate-query-translate)
+(define-key global-map (kbd "C-c t q r") 'google-translate-query-translate-reverse)
