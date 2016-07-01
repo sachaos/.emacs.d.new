@@ -47,6 +47,7 @@
 
 ;; elixir
 (el-get-bundle elixir-mode)
+(el-get-bundle ac-alchemist)
 (el-get-bundle alchemist)
 
 ;; jsx
