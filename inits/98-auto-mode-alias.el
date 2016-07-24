@@ -9,6 +9,7 @@
 
 ;; js2-jsx-mode
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-jsx-mode))
+(add-to-list 'auto-mode-alist '("\\.gs\\'" . js2-jsx-mode))
 
 ;; shell-mode
 (add-to-list 'auto-mode-alist '("zsh" . shell-script-mode))
