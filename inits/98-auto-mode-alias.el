@@ -15,3 +15,6 @@
 ;; shell-mode
 (add-to-list 'auto-mode-alist '("zsh" . shell-script-mode))
 (add-to-list 'auto-mode-alist '("\\.env$" . shell-script-mode))
+
+;; ruby-mode
+(add-to-list 'auto-mode-alist '("\\.rabl" . enh-ruby-mode))
