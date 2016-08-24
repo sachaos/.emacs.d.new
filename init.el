@@ -39,6 +39,7 @@
 (el-get-bundle google-translate)
 (el-get-bundle json-mode)
 (el-get-bundle edit-server)
+(el-get-bundle rainbow-mode)
 
 ;; ruby
 (el-get-bundle ruby-block)
