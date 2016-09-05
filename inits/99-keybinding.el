@@ -22,6 +22,8 @@
 (define-key global-map (kbd "C-x C-g C-g") 'helm-grep-do-git-grep)
 (define-key global-map (kbd "C-x C-g C-g")
   (lambda () (interactive) (helm-grep-do-git-grep "")))
+;; magit
+(define-key global-map (kbd "C-x C-g C-s") 'magit-status)
 
 ;; mwim
 (define-key global-map (kbd "C-a") 'mwim-beginning-of-code-or-line)
